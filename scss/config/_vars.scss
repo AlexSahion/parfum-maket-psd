@@ -1,0 +1,16 @@
+$mainOffset: 15px;
+
+$whiteColor: #fff;
+$blackColor: #111;
+$cyanColor: #21bfb9;
+$redColor: #a83030;
+
+$standartTrans: all 350ms ease-in-out;
+
+$firstAccentColor: $cyanColor;
+$secondAccentColor: $redColor;
+
+$standartShadow:  0 0 5px rgba($blackColor, 20%),
+                  0 0 10px rgba($blackColor, 20%),
+                  0 0 15px rgba($blackColor, 20%),
+                  0 0 20px rgba($blackColor, 20%);

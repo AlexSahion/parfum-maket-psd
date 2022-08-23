@@ -1,57 +1,188 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<title>Project2</title>
-	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-
+	<title>Project2</title>
 </head>
+
 <body>
-	<header class="header d-flex">
-			<div class="logo"><img src="img/logo.png" alt=""></div>
-			<div class="button"><a class="home" href="#">Home</a> <a href="about/index.html">about</a> <a href="contact/index.html">contact</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="header__logo logo" href="/">
+					<img class="logo__img" src="img/logo.png" alt="">
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link active" href="/">Home</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="/about">About</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="/contact">Contact</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="/news">News</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-	<div class="content">
 
+		<main class="content">
+			<div class="content__container">
+				<h1 class="content__title">UI/UX & Graphic Designer</h1>
+				<p class="content__description">
+					I am a Graphic & Web Designer based in New York, specializing 
+					<br>
+					in User Interface Design and Development.
+				</p>
+			</div>
+			<div class="content__gallery gallery">
+				<ul class="gallery__list">
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item white">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+					<li class="gallery__item pink">
+						<img src="./img/01.png" alt="" class="gallery__img">
+					</li>
+				</ul>
+			</div>
+		</main>
 
-		<div class="main__info">
-			<h1>UI/UX & Graphic Designer</h1>
-			<p>I am a Graphic & Web Designer based in New York, specializing <br> in User Interface Design and Development.</p>
-		</div>
-		<div class="main__fotos">
-			<div class="fotos d-flex">
-				<div class="foto"><img src="img/parfum.png" alt="#"></div>
-				<div class="foto2"></div>
-				<div class="foto3"></div>
-				<div class="foto4"></div>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<h4 class="footer__title">Piroll Design, Inc.</h4>
+					<a class="footer__mail media-link" href="mailto:hello@pirolltheme.com">
+						hello@pirolltheme.com
+					</a>
+					<a class="footer__phone media-link" href="tel:+44987065908">
+						+44 987 065 908
+					</a>
+					<div class="footer__copyright">
+						© 2017 Piroll. All rights reserved.
+						<br>
+						Designed by robirurk
+					</div>
+				</div>
+				<div class="footer__column">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="/projects" class="footer__menu-link">
+								Projects
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/about" class="footer__menu-link">
+								About
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/services" class="footer__menu-link">
+								Services
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/career" class="footer__menu-link">
+								Career
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="/projects" class="footer__menu-link">
+								News
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/about" class="footer__menu-link">
+								Events
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/services" class="footer__menu-link">
+								Contact
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/career" class="footer__menu-link">
+								Legals
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">
+							<a href="/projects" class="footer__menu-link">
+								Facebook
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/about" class="footer__menu-link">
+								Twitter
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/services" class="footer__menu-link">
+								Instagram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="/career" class="footer__menu-link">
+								Dribbble
+							</a>
+						</li>
+					</ul>
+					<div class="footer__copyright show">
+						© 2017 Piroll. All rights reserved.
+						<br>
+						Designed by robirurk
+					</div>
+				</div>
 			</div>
-			<div class="fotos2 d-flex">
-				<div class="foto5"></div>
-				<div class="foto6"></div>
-				<div class="foto7"></div>
-				<div class="foto8"></div>
-			</div>
-			<div class="fotos3 d-flex">
-				<div class="foto"></div>
-				<div class="foto2"></div>
-				<div class="foto3"></div>
-				<div class="foto4"></div>
-			</div>
-		</div>
-		<footer class="info d-flex">
-			<div class="pravo">
-				<span>Piroll Design, Inc.</span>
-				<p>© 2017 Piroll. All rights reserved. Designed by robirurk</p>
-			</div>
-
-			<div class="tel">hello@pirolltheme.com +44 987 065 908</div>
-
-			<div class="project">Projects About Services Carreer</div>
-			<div class="project2">News Events Contact Legals</div>
-			<div class="project3">Facebook Twitter Instagram Dribbble</div>
 		</footer>
 	</div>
 </body>
+
 </html>
